@@ -3,7 +3,96 @@
     padding: 0px;
 }
 
+
+
 body {
-    background-color: lime;
+    background-color: black;
 }
+
+.socialmedia {
+    font-size: 20px;
+}
+
+.thetrend {
+    font-weight: bold;
+    text-align: left;
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 125px;
+    padding-left:25px;
+}
+
+.slogan {
+    font-size: 70px;
+    font-family: 'Caveat', cursive;
+    padding-left: 25px;
+    font-weight: bold;
+}
+
+
+.freshingredients {
+    text-align: center;
+    font-family: "Caveat", cursive;
+    font-weight: bold;
+    color:turquoise;
+    font-size: 50px;
+        
+}
+
+.chameleon {
+    padding-left: 25px;
+}    
+
+
+
+/*container with tea, oats, and acai bowls*/
+.container {
+    display: grid;
+    
+    /*flex-direction: row;
+    justify-content: space-around;*/
+    border: 2px black solid;
+    min-width: 100vh;
+    padding-bottom: 25px;
+    
+
+}
+
+
+.col-sm-4 {
+    text-align: center;
+}
+
+.energy-teas, .oats, .sorbet {
+    border: 2px black solid;
+}
+
+.d-block w-100 {
+    text-align: center;
+    width: 50%;
+}
+
+p {
+    padding: 10px;
+    font-size: 18px;
+}
+/*end container*/
+
+/*contact form*/
+.row {
+    padding: 50px;
+    color: purple;
+}
+
+
+
+
+
+
+/*footer*/
+footer {
+    text-align: center;
+    font-size: 22px;
+}
+
+
 

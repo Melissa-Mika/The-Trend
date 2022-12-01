@@ -6,95 +6,200 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Trend</title>
+
+
+
+    <!--
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--Link to google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Rubik+Dirt&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Rubik+Dirt&display=swap" rel="stylesheet">
+
+    <!--font awesome for social media icons-->
+    <script src="https://kit.fontawesome.com/4d73bba405.js" crossorigin="anonymous"></script>
+
+
+
     <link rel="stylesheet" href="styles.css">
 
 </head>
 
 <body>
 
-    <nav>
-        <a href="index.html">Home</a><a href="contact.html">Contact Us</a>
+    <nav class="navbar navbar-dark bg-dark">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+        </ul>
     </nav>
 
-    <div class="homeheading">
-
-        <img src="images/onlychameleon.png" alt="picture of a colorful chameleon" width="600" height="500"
-            class="chameleon">
-
-        <h1>The Trend</h1><br>
-
-        <h2>Let Us Be Your Change!</h2>
+    <!--social media-->
+    <div class="socialmedia">
+    <a href="https://www.facebook.com/thetrend417" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+    <a href="https://www.instagram.com/thetrendtrailer417/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
     </div>
+
+    <!--Container with energy teas, oats, and acai bowls-->
+    <div class=".container-fluid">
+        <div class="row">
+            <div class="col-sm-4" style="background-color: lime;">
+                <img src="images/onlychameleon.png" alt="picture of a colorful chameleon" width="400" height="300"
+                    class="chameleon">
+            </div>
+            <div class="col-sm-8" style="background-color: lime;">
+                <h1 class="thetrend">The Trend</h1>
+                <h2 class="slogan">One Trend at a Time</h2>
+            </div>
+        </div>
+    </div>
+
 
     <div class="containerhome">
 
-        <div class="main-container">
-
-
-            <div class="energy-teas">
-                <section>
+        <div class=".container-fluid">
+            <h1 class="freshingredients">We Use Only Fresh and Natural Ingredients</h1>
+            <div class="row">
+                <div class="col-sm-4" style="background-color:yellow;">
+                    <img src="images/blue-red-drink.jpg" alt="iced tea colored red and blue" width="350px"
+                        height="400px" class="tea">
                     <h2>Energy Teas</h2>
                     <h4>with Perk Energy</h4>
-                </section>
-                <p>
-                    Real Talk. Mornings can be rough. Sometimes the bed just calls to you. We get it. That’s why
-                    Perk Energy
-                    provides a natural boost to support long-lasting energy from medium chain triglycerides
-                    (MCTs), just enough
-                    caffeine, and collagen to support healthy joints, hair, skin, and nails. Perk Energy
-                    supports a healthy
-                    immune system with an antioxidant blend of grape seed extract, vitamin D, and blueberry
-                    extract. Perk also
-                    satisfies with eight grams of protein to support lean muscle and no added sugar. And, most
-                    importantly, Perk
-                    Energy tastes so good you'll look forward to getting up in the morning. Really!
 
-                <h5>PerkEnergy.com</h5>
-                </p>
+                    <p>
+                        Real Talk. Mornings can be rough. Sometimes the bed just calls to you. We get it. That’s why
+                        Perk Energy
+                        provides a natural boost to support long-lasting energy. Our energy drinks have
+                        caffeine and collagen, which supportss healthy joints, hair, skin, and nails. Perk Energy
+                        supports a healthy
+                        immune system and has 8 grams of protein to support lean muscle. Most importantly, it tastes
+                        great!
+
+                    </p>
+                    <h5>PerkEnergy.com</h5>
+                </div>
+                <div class="col-sm-4" style="background-color:orange;">
+                    <img src="images/oats-with-fruit.jpg" alt="bowl of oatmeal with fruit toppings" width="350px"
+                        height="400px" class="oats">
+                    <h2>Gourmet Old Fashioned Oats</h2>
+                    <h4>Gluten-free and oh so good!</h4>
+                    <p>
+                        Something about oats
+                    </p>
+                </div>
+
+                <div class="col-sm-4" style="background-color:pink;">
+                    <img src="images/acai-bowl2.jpg" alt="bowl with pink sorbet and fruit toppings" width="350px"
+                        height="400px" class="acai">
+                    <h2>Acai Bowls</h2>
+                    <h4>Real Dragonfruit!</h4>
+                    <p>
+                        Dragonfruit is a fruit from the Amazon. Otherwise known as Pitahaya, has many health benefits.
+                        Check them out!
+
+                        It’s rich in antioxidants that protect your cells from damage by free radicals. It's high in
+                        fiber and my help to lower your blood sugar.
+                    </p>
+                </div>
+
             </div>
-
-
-
-
-            <div class="oats">
-                <section>
-                    <h2>Old Fashioned Oats</h2>
-                    <h4>Yes, they are gluten-free!!</h4>
-                </section>
-
-                <p>
-
-                </p>
-            </div>
-
-            <div class="sorbet">
-                <section>
-                    <h2>Sorbet Bowls</h2>
-                    <h3>something here</h3>
-                </section>
-
-                <p>
-
-
-                </p>
-            </div>
-
-
-
-
-
-
         </div>
-
-
-        <footer>
-
-            <p>
-                The Trend &copy;2018
-            </p>
-        </footer>
-
     </div>
+    <!--end of container-->
+
+
+
+
+    <!--accordian-->
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    Accordion Item #1
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
+                    plugin adds the appropriate classes that we use to style each element. These classes control the
+                    overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of
+                    this with custom CSS or overriding our default variables. It's also worth noting that just about any
+                    HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Accordion Item #2
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
+                    collapse plugin adds the appropriate classes that we use to style each element. These classes
+                    control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                    modify any of this with custom CSS or overriding our default variables. It's also worth noting that
+                    just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
+                    overflow.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Accordion Item #3
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                    collapse plugin adds the appropriate classes that we use to style each element. These classes
+                    control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                    modify any of this with custom CSS or overriding our default variables. It's also worth noting that
+                    just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
+                    overflow.
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end of accordian-->
+
+    <footer>
+
+        <p>The Trend &copy;2018</p>
+        <p id="myinfo>"><a href="mail to: trendtea.nixa@gmail.com">Email Us!</a></p>
+        <p class="locallyowned">Locally & Veteran Owned</p>
+
+
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
 </body>
 
 </html>
