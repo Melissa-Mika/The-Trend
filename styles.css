@@ -9,39 +9,140 @@ body {
     background-color: black;
 }
 
+
+
+.nav-socialmedia {
+    padding-left: 800px;
+    color: orange;
+    font-size: 25px;
+}
+
 .socialmedia {
-    font-size: 20px;
+    font-size: 30px;
+    padding: 5px;
 }
 
-.thetrend {
-    font-weight: bold;
-    text-align: left;
-    font-family: 'Rubik Dirt', cursive;
-    font-size: 125px;
-    padding-left:25px;
-}
-
-.slogan {
-    font-size: 70px;
-    font-family: 'Caveat', cursive;
-    padding-left: 25px;
-    font-weight: bold;
-}
-
-
-.freshingredients {
-    text-align: center;
-    font-family: "Caveat", cursive;
-    font-weight: bold;
-    color:turquoise;
+.fa-brands {
     font-size: 50px;
-        
+    text-shadow: 4px 4px black;
+    padding-left: 100px;
+    color: orange;
+}
+
+a:link {
+    color: white
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: turquoise;
+}
+
+.nav-item {
+    list-style: none;
+    
 }
 
 .chameleon {
     padding-left: 25px;
 }    
 
+.thetrend {
+    font-weight: bold;
+    text-align: left;
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 125px;
+    color: purple;
+}
+
+.catering {
+    color:orange;
+    font-weight: bold;
+    text-align: left;
+    font-size:40px;
+    text-shadow: 2px 2px black;
+}
+
+.slogan {
+    font-size: 70px;
+    text-align: left;
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    color: purple;
+}
+
+/*The truck info*/
+.truck-container {
+    display: grid;
+    width: 100%;
+}
+
+.truck-pic {
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.contactlink {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.trendtruck {
+    font-family: "Rubik Dirt", cursive;
+    font-size: 70px;
+    padding-top: 25px;
+    text-shadow: 3px 3px black;
+    color: darkorange;
+}
+
+.whatwedo {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "caveat", cursive;
+    text-align:center;
+    color: white;
+    text-shadow: 3px 3px black;
+}
+
+.clicksocialmedia {
+    font-size: 40px;
+    font-family: "caveat", cursive;
+    font-weight: bold;
+    text-align: center;
+    color: darkorange;
+    text-shadow: 3px 3px black;
+}
+
+.veteranowned {
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+
+/*headings before container of teas, oats, and acai*/
+.freshingredients {
+    text-align: center;
+    font-family: "Caveat", cursive;
+    font-weight: bold;
+    color:turquoise;
+    font-size: 50px;
+    }
+
+    .ingredients {
+        text-align: center;
+        color: orange;
+        font-size: 25px;
+    }
+
+    .perkenergy {
+        color: purple;
+    }
 
 
 /*container with tea, oats, and acai bowls*/
@@ -55,15 +156,25 @@ body {
     padding-bottom: 25px;
     
 
+}.perkenergy {
+    font-size: 22px;
 }
-
 
 .col-sm-4 {
     text-align: center;
+    padding-top: 15px;
+    font-family: "caveat", cursive;
+    font-weight: bold;
+    
 }
 
 .energy-teas, .oats, .sorbet {
     border: 2px black solid;
+    color: purple;
+}
+
+.teaparagraph, .oatparagraph, .acaiparagraph {
+    font-size: 25px;
 }
 
 .d-block w-100 {
@@ -74,25 +185,94 @@ body {
 p {
     padding: 10px;
     font-size: 18px;
+    color: black;
+}
+
+h2 {
+    color: purple;
+    padding-top: 15px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+h4 {
+    color: purple;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    
 }
 /*end container*/
 
-/*contact form*/
-.row {
-    padding: 50px;
-    color: purple;
+
+/*contact us page*/
+.contactbody {
+    background-color:mediumspringgreen;
 }
 
 
+.hearfromyou {
+    font-family: "Rubik Dirt", cursive;
+    text-align: left;
+    padding-top: 100px;
+}
+
+/*contact form*/
+.row {
+     color: white;
+     padding: 50px;
+}
+
+.form-label {
+    color: black;
+}
+
+.trend-contact {
+    color: fuchsia;
+    font-size: 40px;
+}
+
+/*contactpagefooter*/
+.contactfooter {
+    color: black;
+    font-size: 26px;
+    padding-bottom: 0px;
+    padding-top: 25px;
+    margin-bottom: 0px;
+}
+
+.contactmyinfo {
+    color: black;
+    font-size: 26px;
+    padding:0px;
+}
+/*end contact page footer*/
+
+/*menu page*/
 
 
+.menuinstagram {
+   color: orange; 
+   font-size: 32px;
+}
 
 
 /*footer*/
 footer {
+    margin-bottom: 0px;
     text-align: center;
-    font-size: 22px;
+    font-size: 25px;
+    font-family: "caveat", cursive;
+    color: white;
 }
+
+.trendfooter {
+    color: white;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 25px;
+}
+
 
 
 
