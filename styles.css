@@ -3,13 +3,12 @@
     padding: 0px;
 }
 
-
-
 body {
     background-color: black;
 }
 
 
+/*navigation*/
 
 .nav-socialmedia {
     padding-left: 800px;
@@ -20,6 +19,8 @@ body {
 .socialmedia {
     font-size: 30px;
     padding: 5px;
+    list-style: none;
+    padding-left: 150px;
 }
 
 .fa-brands {
@@ -30,22 +31,24 @@ body {
 }
 
 a:link {
-    color: white
-}
-
-a:visited {
     color: white;
 }
 
+a:visited {
+    color: orange;
+}
+
 a:hover {
-    color: turquoise;
+    color:violet;
 }
 
 .nav-item {
     list-style: none;
     
 }
+/*end of navigation*/
 
+/*top box with chameleon*/
 .chameleon {
     padding-left: 25px;
 }    
@@ -73,6 +76,7 @@ a:hover {
     font-weight: bold;
     color: purple;
 }
+/*end of top box with chameleon*/
 
 /*The truck info*/
 .truck-container {
@@ -119,10 +123,13 @@ a:hover {
 }
 
 .veteranowned {
-    color: white;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 35px;
+    font-family: "caveat", cursive;
+    padding-left: 300px;
+    color: turquoise;
 }
+/*end of truck*/
 
 
 /*headings before container of teas, oats, and acai*/
@@ -195,6 +202,14 @@ h2 {
     font-size: 40px;
 }
 
+h3 {
+    text-align: center;
+    color: turquoise;
+    font-family: "caveat", cursive;
+    font-size: 35px;
+    font-weight: bold;
+}
+
 h4 {
     color: purple;
     font-style: italic;
@@ -202,7 +217,74 @@ h4 {
     font-size: 25px;
     
 }
+
+.ingredients {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.instacontainer {
+   display: flex;
+   justify-content: center;
+   padding-right: 75px; 
+}
 /*end container*/
+
+/*menu page*/
+.menuinstagram {
+    padding-top: 100px;
+    color: orange;
+    font-size: 45px;
+    }
+
+/*FAQ page*/
+/*faq heading*/
+.faqheading {
+    text-align: center;
+    color: purple;
+    font-weight: bold;
+    font-family: "Rubik Dirt", cursive;
+    padding-top: 85px;
+    font-size: 55px;
+}
+
+/*ACCORDION*/
+
+.accordioncontainer {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: violet;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: left;
+    border: 3px 3px lime;
+    outline: solid 2px purple;
+    transition: 0.4s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: aqua;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+  /*END of ACCORDION*/
+
+/*end of faq page*/
 
 
 /*contact us page*/
@@ -248,15 +330,6 @@ h4 {
 }
 /*end contact page footer*/
 
-/*menu page*/
-
-
-.menuinstagram {
-   color: orange; 
-   font-size: 32px;
-}
-
-
 /*footer*/
 footer {
     margin-bottom: 0px;
@@ -271,6 +344,21 @@ footer {
     margin-bottom: 0px;
     padding-bottom: 0px;
     font-size: 25px;
+}
+
+.veteranfooter {
+    padding-top: none;
+}
+
+/*media queries*/
+@media screen and (min-width: 576px) {
+    .navbar {
+        justify-content: left;
+    }
+
+    .row {
+        min-width: 100%;
+    }
 }
 
 
