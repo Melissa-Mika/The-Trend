@@ -28,6 +28,7 @@ body {
     text-shadow: 4px 4px black;
     padding-left: 100px;
     color: orange;
+    list-style: none;
 }
 
 a:link {
@@ -231,6 +232,12 @@ h4 {
 /*end container*/
 
 /*menu page*/
+.menu-header {
+    text-align: center;
+    color: fuchsia;
+    font-size: 55px;
+}
+
 .menuinstagram {
     padding-top: 100px;
     color: orange;
@@ -253,8 +260,19 @@ h4 {
         padding-top: 40px;
     }
 
+    .menu {
+        padding-top: 0px;
+        font-family: "caveat", cursive;
+        font-size: 45px;
+        padding-bottom: 50px;
+    }
+
     .menuinstagram {
         padding-top: 0px;
+    }
+
+    .oat-menu {
+        width: 800px;
     }
 
     /*end of menu page*/
@@ -317,8 +335,9 @@ h4 {
 
 
 .hearfromyou {
+    font-size: 60px;
     font-family: "Rubik Dirt", cursive;
-    text-align: left;
+    text-align: center;
     padding-top: 100px;
 }
 
@@ -369,21 +388,21 @@ footer {
     font-size: 25px;
 }
 
-.veteranfooter {
-    padding-top: none;
-}
-
 /*media queries*/
+
+/*small devices, cellphones 576px and up*/
 @media screen and (min-width: 576px) {
-    .navbar {
-        justify-content: left;
+    .nav-link {
+        text-align: left;
     }
 
-    .row {
-        min-width: 100%;
-    }
 }
 
-
-
+/*medium devices, tablets 768px and up*/
+@media screen and (min-width: 768px)
+{
+.row {
+    width: 100%;
+}
+}
 
